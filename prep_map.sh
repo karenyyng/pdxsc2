@@ -1,5 +1,5 @@
 if [[ ! -d $HOME/StarCraftII/Maps ]]; then
-  mkdir -p /Users/karenyng/StarCraftII/Maps
+  mkdir -p $HOME/StarCraftII/Maps
 fi
 cd ~/StarCraftII/Maps
 if [[ ! -f Ladder2017Season1.zip ]]; then
