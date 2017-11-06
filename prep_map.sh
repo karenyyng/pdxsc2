@@ -1,6 +1,4 @@
-if [[ ! -d $HOME/StarCraftII/Maps ]]; then
-  mkdir -p $HOME/StarCraftII/Maps
-fi
+mkdir -p $HOME/StarCraftII/Maps
 cd ~/StarCraftII/Maps
 if [[ ! -f Ladder2017Season1.zip ]]; then
   wget http://blzdistsc2-a.akamaihd.net/MapPacks/Ladder2017Season1.zip
